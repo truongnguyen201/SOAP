@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập độ C" />
+
+    <EditText
+        android:id="@+id/txtDoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnDoF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Độ F là" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="độ f ở đây" />
+</LinearLayout>
